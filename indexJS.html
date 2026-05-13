@@ -1,14 +1,80 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box { 
+            width: 100px; height: 100px; border: 1px solid black; 
+        }
+.red-bg { 
+    
+    background-color: red;
+ }
+.blue-bg {
+     background-color: blue;
+     }
+    </style>
+    
+</head>
+<body>
+    
+<div id="header" style="width: 450px ; height: 450px; background-color: red;"></div>
+
+<div id="testElement" class="box">Mənim klaslarımı yoxla</div>
+
+<button id="btnClassName">ClassName ilə dəyiş</button>
+<button id="btnClassList">ClassList ilə əlavə et</button>
+
+
+    
+</body>
+</html> -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="styleJS.css">
 </head>
 <body>
-    
+
+
+
+<div class="container"  style="width: 700px;height: 600px;border: 1px solid black; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+
+    <div id="slider_photo"  style="width: 700px;height: 500px;border: 1px solid black;">
+        <img id="photo" >
+    </div>
+
+    <div id="slider_title">
+   <h3 id="slider-text"></h3>
+    <p id="slider-desc"></p>
+    </div>
+
+    <div id="button_groups">
+        <button id="prive_button" data-nav="prev" style="width: 60px;height: 40px; border: 1px solid black; border-radius: 40px;">
+           
+              <i class="fa-solid fa-arrow-left" style="font-size: 40px;" ></i>
+        </button>
+
+         <button id="next_button"  data-nav="next" style="width: 60px;height: 40px; border: 1px solid black; border-radius: 40px;">
+      <i class="fa-solid fa-arrow-right" style="font-size: 40px;"></i>
+         </button>
+
+    </div>
+
+</div>
 
 
     <script src="script.js"></script>
 </body>
 </html>
+
+
